@@ -1,0 +1,93 @@
+table {
+    width: 100%;
+    border-collapse: collapse; /* Elimina el espacio entre celdas */
+}
+
+th {
+    background-image: url('../Imagenes/Encabezado.png'); /* Imagen de fondo del encabezado */
+    background-size: cover; /* Ajusta el tamaño de la imagen de fondo */
+    background-position: center; /* Centra la imagen de fondo */
+    background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
+    width: 100%; /* Ajusta el ancho del encabezado */
+    height: 300px; /* Ajusta la altura del encabezado */
+    text-align: center; /* Centra el texto dentro del encabezado */
+    padding: 20px; /* Espaciado dentro del encabezado */
+    position: relative; /* Necesario para la posición absoluta de la imagen */
+}
+
+.imagen-1 {
+    position: absolute; /* Posiciona la imagen dentro del encabezado */
+    top: 20px; /* Ajusta la distancia desde el borde superior */
+    left: 20px; /* Ajusta la distancia desde el borde izquierdo */
+    width: 100px; /* Ajusta el tamaño de la imagen */
+    height: 60px; /* Ajusta la altura de la imagen */
+}
+
+.PHP-2 {
+    width: 100px; /* Ajusta el tamaño de la imagen en las celdas del cuerpo */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+.caracterist{
+    position: absolute;
+    top: 20px;
+    left: 300px;
+    color: white;
+    text-decoration: none;
+}
+.ventajas-1{
+    position: absolute;
+    top: 20px;
+    left: 420px;
+    color: white;
+    text-decoration: none;
+}
+.desventajas-2{
+    position: absolute;
+    top: 20px;
+    left: 490px;
+    color: white;
+    text-decoration: none;
+}
+.lanzamiento-1{
+    position: absolute;
+    top: 20px;
+    left: 580px;
+    color: white;
+    text-decoration: none;
+}
+.bases-de-datos{
+    position: absolute;
+    top: 20px;
+    left: 650px;
+    color: white;
+    text-decoration: none;
+}
+.tipo-de-software{
+    position: absolute;
+    top: 20px;
+    left: 850px;
+    color: white;
+    text-decoration: none;
+}
+.tabla-comp{
+    position: absolute;
+    top: 20px;
+    left: 980px;
+    color: white;
+    text-decoration: none;
+}
+.Mapa{
+    position: absolute;
+    top: 20px;
+    left: 1150px;
+    color: white;
+    text-decoration: none;
+}
+.fuentes{
+    position: absolute;
+    top: 20px;
+    left: 1250px;
+    color: white;
+    text-decoration: none;
+
+}
