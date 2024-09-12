@@ -1,50 +1,48 @@
-table {
+table{
     width: 100%;
     border-collapse: collapse; /* Elimina el espacio entre celdas */
-    
 }
-
-th {
+th{
     background-image: url('../Imagenes/Encabezado.png'); /* Imagen de fondo del encabezado */
     background-size: cover; /* Ajusta el tamaño de la imagen de fondo */
     background-position: center; /* Centra la imagen de fondo */
     background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
     width: 100%; /* Ajusta el ancho del encabezado */
-    height: 300px; /* Ajusta la altura del encabezado */
+    height: 40vh; /* Ajusta la altura del encabezado */
     text-align: center; /* Centra el texto dentro del encabezado */
     padding: 20px; /* Espaciado dentro del encabezado */
     position: relative; /* Necesario para la posición absoluta de la imagen */
     color: white;
 }
-
 .imagen-1 {
     position: absolute; /* Posiciona la imagen dentro del encabezado */
     top: 20px; /* Ajusta la distancia desde el borde superior */
     left: 20px; /* Ajusta la distancia desde el borde izquierdo */
     width: 100px; /* Ajusta el tamaño de la imagen */
-    height: 60px; /* Ajusta la altura de la imagen */
+    height: 60px; /* Ajusta la altura de la imagen */ 
 }
-
-a{
+.caract{
     position: absolute;
-    top: 20px;
-    color: white;
-    text-decoration: none;
-    
+    width: 80%;
+    top: 50%;
+    left: 10%;
+    height: 90%;
 }
-
 div{
     position: absolute;
-    left: 40%;
-    top: 60%;
+    top: 150%;
+    left: 10%;
     text-align: justify;
-    width: 50%;  
     font-size: 120%;
+    width: 80%;
 }
-.PHP-2 {
-    width: 30%; /* Ajusta el tamaño de la imagen en las celdas del cuerpo */
-    height: auto; /* Mantiene la proporción de la imagen */
-    margin-top: 5%;
-    margin-left: 5%;
-
+a{
+    position: absolute;
+    top: 80%;
+    left: 1%;
+    color: white;
+    text-decoration: none;
+    background-color: red;
+    padding: 10px;
+    border-radius: 20px;
 }
