@@ -1,6 +1,7 @@
 table{
     width: 100%;
     border-collapse: collapse; /* Elimina el espacio entre celdas */
+    
 }
 th{
     background-image: url('../Imagenes/Encabezado.png'); /* Imagen de fondo del encabezado */
@@ -13,6 +14,8 @@ th{
     padding: 20px; /* Espaciado dentro del encabezado */
     position: relative; /* Necesario para la posición absoluta de la imagen */
     color: white;
+    
+
 }
 
 .imagen-1 {
