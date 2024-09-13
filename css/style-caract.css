@@ -14,6 +14,7 @@ th{
     position: relative; /* Necesario para la posición absoluta de la imagen */
     color: white;
 }
+
 .imagen-1 {
     position: absolute; /* Posiciona la imagen dentro del encabezado */
     top: 20px; /* Ajusta la distancia desde el borde superior */
